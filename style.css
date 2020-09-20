@@ -1,0 +1,451 @@
+
+
+@font-face {
+
+    font-family: Learners;
+
+    src: url("blog-fonts/Learners.ttf");
+}
+
+@font-face {
+
+ font-family: Amarillo;
+
+ src: url("blog-fonts/Amarillo.ttf");
+}
+
+@font-face {
+
+    font-family: Rainbow;
+
+    src: url("blog-fonts/Jolly\ Rainbow.otf")
+}
+
+@font-face {
+
+    font-family: Roboto;
+
+    src: url("blog-fonts/Roboto.ttf");
+}
+
+@font-face {
+
+
+    font-family: "Black Bubble";
+
+    src: url("blog-fonts/BLACK\ BUBBLE.ttf")
+}
+
+@font-face {
+
+
+    font-family: "Little Days";
+
+    src: url("blog-fonts/Little\ Days\ Alt.ttf")
+}
+
+@font-face {
+
+    font-family: "Geo Sans Light";
+
+    src: url("blog-fonts/GeosansLight.ttf")
+}
+
+@keyframes fade {
+
+    0% {opacity: 1;}
+
+    30% {opacity: 1;}
+
+    40% {opacity: 0;}
+
+    90% {opacity: 0;}
+
+    100% {opacity: 1;}
+      
+}
+
+
+
+h1 {
+
+
+    text-align: center;
+
+    font-family: Amarillo;
+
+    font-size: larger;
+
+}
+
+
+p {
+
+    text-align: justify;
+
+    font-family: Learners;
+
+    font-size: x-large;
+
+    width: 50%;
+
+}
+
+
+body {
+
+    background: rgba(128, 128,128, 50%);
+
+}
+
+
+
+.container {
+
+    
+    margin: 50px auto; /* Margen superior: 0 Margen izquierdo: centrado/automático antes 20 px de margen superior e inferior*/
+
+    margin-bottom: 50px;
+
+    width: fit-content;
+
+    padding: 0px 30px 0px 30px;
+
+    border: 1px solid black;
+
+    box-shadow: 0px 5px 5px black;
+
+  
+
+ 
+}
+
+#video_list {
+
+    display: inline-table;
+
+    list-style: none;
+
+    margin-top: 30px;
+
+    margin-bottom: 30px;
+
+   
+}
+
+#video_list li {
+
+    float: left;
+
+    margin-left: 80px;
+   
+}
+
+
+#video_list li iframe {
+
+
+    border-width: thick;
+
+    border-style: solid;
+
+    border-color: lightgreen; 
+
+}
+
+#hr_line {
+
+    border-width: 4px;
+
+    border-radius: 3px;
+
+    border-color: black;
+
+    width: 60%;
+
+}
+
+figure {
+
+    margin-left: auto;
+
+    margin-right: auto;
+}
+
+#photos {
+
+    display: flex;
+
+    text-align: justify;
+}
+
+#photos img {
+
+    width: 300px;
+
+    height: 200px;
+}
+
+
+a img {
+
+    display: inline-block;
+
+    width: 105px;
+
+    height: 100px;
+
+    margin-right: 20px;
+
+}
+
+
+footer a {
+
+    text-decoration: none;
+}
+
+figcaption {
+
+    text-align: center;
+
+    font-family: Roboto,sans-serif;
+}
+
+header {
+
+    background-color: black;
+
+    height: 100px;
+
+    width: 100%;
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    margin-bottom: 100px;
+
+
+}
+
+header h2 {
+    
+    color: white;
+
+    font-family: "Black Bubble";
+
+    text-align: center;
+
+    margin-top: 30px;
+
+}
+
+header figcaption {
+
+    font-family: "Geo Sans Light",sans-serif;
+}
+
+section {
+
+    display: flex;
+
+    justify-content: space-evenly;
+
+    align-items: center;
+}
+
+#wrapper {
+
+    margin-top: 150px;
+}
+
+table {
+
+    width: auto;
+
+    margin: 50px auto 50px auto;
+
+
+}
+
+table, th, td {
+
+    border-radius: 50px;
+
+    border-spacing: 15px 15px;
+}
+
+th, td {
+
+    padding: 20px;
+
+    text-align: center;
+}
+
+th {
+
+    background-color: pink;
+
+    font-family: "Little Days";
+
+    font-size: xx-large;
+}
+
+
+td {
+
+    background-color: white;
+
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#dropdown {
+
+    position: absolute;
+
+    top: 36%;
+
+    left: 20px;
+
+}
+
+.dropbtn {
+
+   border: 2px solid white;
+
+   width: fit-content;
+
+   height: fit-content;
+
+   outline: none;
+
+   font-family: "Geo Sans Light",sans-serif;
+
+   font-weight: bold;
+
+   font-size: larger;
+
+   background-color:black;
+
+   color: white
+
+
+}
+
+.dropbtn:hover {
+
+    cursor: pointer;
+}
+
+.dropdown-content {
+
+    position: absolute;
+
+    display: none;
+
+}
+
+.dropdown-content a {
+
+    display: block;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    text-align: center;
+
+    padding: 15px;
+
+    color: black;
+
+    background-color: white;
+
+    min-width: max-content;
+}
+
+.dropdown-content a:hover {
+
+    background-color: lightgray;
+}
+
+#up_arrow {
+
+    display: none;
+
+    user-select: none;
+
+    position: fixed;
+
+    border: 2px solid black;
+
+    line-height: 300%;
+
+    text-align: center;
+
+    right: 100px;
+
+    bottom: 100px;
+
+    width: 50px;
+
+    height: 50px;
+
+    color: white;
+
+    border-radius: 3px;
+
+    background-color: black;
+
+    z-index: 10;
+}
+
+#up_arrow:hover {
+
+    cursor: pointer;
+
+    border: 1px solid white;
+
+
+}
+
+.parent {
+
+    position: relative;
+}
+
+.top_image {
+
+    position: absolute;
+
+    animation-name: fade;
+
+    animation-duration: 10s;
+
+    animation-iteration-count: infinite;
+
+    animation-timing-function: ease-in-out;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
