@@ -1,18 +1,342 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="es">
+
+
+
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>my-first-website</title>
-  <LINK href="styles.css" rel="stylesheet" type="text/css">
+
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="shortcut icon" href="icon.jpg">
+
+    <script src="jquery-3.5.1.min.js"></script>
+
+    <script src="behaviour.js"></script>
+
+    <title>Blog Personal</title>
+    
 </head>
 
 <body>
 
-<img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" id="octocat" alt="octocat-gif" />
 
-<!-- Change this code here by copy and pasting your template on line 15 -->
-<p>Welcome to your first GitHub Pages website!</p>
+    <div id="up_arrow">▲</div>
+
+    <header>
+
+        <div id="dropdown">
+
+            <button class= "dropbtn">Miembros</button>
+
+            <div class="dropdown-content">
+
+                <a style="background-color: black;color: white;border: 2px solid white;">Andowna9 ✔</a>
+
+                <a href="#">Abdegamer5</a>
+
+                <a href="#">Erlintzu</a>
+
+                <a href="#">Gorki16</a>
+
+            </div>
+
+
+        </div>
+
+        <h2>LAS CANCHAS ⚽</h2>
+
+        <figure style="width: 50px;position: absolute;top: 0;right: 50px;">
+
+            <a href="https://discord.gg/dwfRYhg" target="_blank">
+
+
+                <img src="logos/discord.png" alt="Discord" style="width: 50px; height: 50px;">
+
+            </a>
+
+            <figcaption style="color: white;">Únete!</figcaption>
+    
+        </figure>
+
+    </header>
+
+
+<div id="wrapper">
+
+    <div class="container" style="background-color: salmon;">
+
+        <h1>¿Quién soy?</h1>
+
+    </div>
+
+    <section>
+
+        <img src="logos/pikachu.png" width="150px" height="150px">
+    
+        <p>
+
+        Hola a todos! Me llamo Jon Andoni, aunque la mayoría me conoce como Andowna9 debido a mi canal de
+
+        YouTube. He decidido crear este pequeño blog para dirigirme a mis suscriptores, amigos y conocidos
+
+        de una forma más personal, principalmente con la intención de que dispongáis de contenido adicional.
+
+        </p>
+
+        <img src="logos/charmander.png" width="150px" height="150px">
+
+    </section>
+
+    <div class="container" style="background-color:darkorange">
+
+        <h1>Aficiones</h1>
+
+    </div>
+
+    <section>
+
+        <img src="logos/controller.png" width="220px" height="125px">
+
+        <p>
+
+        Entre mis principales hobbies se encuentra jugar al fútbol, ya que me permite establecer vínculos con otras personas
+
+        fácilmente al tratarse de un deporte en equipo. Sin embargo, he de reconocer que no siempre he pensado así y de pequeño
+
+        no le encontraba la gracia (además, tampoco es que fuera muy bueno). Por otro lado, y como muchos sabréis, amo pasar el 
+
+        tiempo jugando a videojuegos siempre que encuentro un hueco en mi atareado horario, intentando coincidir con mis amigos
+
+        en la medida de lo posible. Por último, en los últimos años he empezado a ver animes (dibujos animados japoneses) 
+
+        populares y teniendo en cuenta que desde pequeño me ha encantado el estilo de dibujo que utilizan, me he vuelto un
+
+        aficionado de la cultura japonesa.
+
+        </p>
+
+        <img src="logos/luffy.png" width="200px" height="300px">
+
+    </section>
+
+    <div class="container" style="background-color: plum">
+
+        <h1>¿Cómo soy?</h1>
+
+    </div>
+
+
+    <section>
+
+        <img src="logos/shyguy.gif" width="130px" height="150px">
+
+        <p>
+
+        Generalmente, me considero una persona muy introvertida, es decir, no soy un aficionado a las discotecas como la mayoría
+
+        de las personas, sino que suelo preferir hacer planes con gente cercana o quedarme en casa viendo series. También cabe
+
+        destacar que tiendo a ser excesivamente perfeccionista con aquellas cosas que me importan, lo cual a veces puede ser un 
+
+        auténtico dolor de muelas!
+
+        </p>
+
+        <img src="logos/yoshi.gif" width="160px" height="180px" style="transform: scaleX(-1);">
+
+    </section>
+
+    <div class="container" style="background-color:aquamarine;">
+
+        <h1>Mis fotos</h1>
+
+    </div>
+
+    <div id="photos">
+
+        <figure>
+
+            <img class="top_image" src="photos/Los Chozos/2.JPG" style="animation-delay: 3s;">
+
+            <img class="top_image" src="photos/Los Chozos/1.JPG" style="animation-delay: 0s;">
+
+            <img src="photos/Los Chozos/3.JPG">
+
+            <figcaption>📍 Los Chozos, Andalusia, Spain</figcaption>
+
+
+        </figure>
+
+        <figure>
+
+            <div class="parent">
+
+                <img class="top_image" src="photos/País vasco/2.jpg" style="animation-delay: 3s;">
+
+                <img class="top_image" src="photos/País vasco/1.JPG" style="animation-delay: 0s;">
+
+                <img src="photos/País vasco/3.JPG">
+
+            </div>
+
+            <figcaption>📍 Vitoria-Gasteiz, País Vasco, Spain</figcaption>
+
+        </figure>
+
+        <figure>
+
+            <div class="parent">
+
+                <img class="top_image" src="photos/Granada/2.jpg" style="animation-delay: 3s;"> 
+
+                <img class="top_image"  src="photos/Granada/1.JPG" style="animation-delay: 0s;">
+
+                <img src="photos/Granada/3.jpg">
+
+
+            </div>
+
+            <figcaption>📍 Granada, Andalusia, Spain</figcaption>
+
+        </figure>
+
+    </div>
+
+    <div class="container" style="background-color: lightgreen;">
+
+        <h1>Algunos vídeos</h1>
+
+    </div>
+
+
+    <ul id="video_list">
+
+
+
+        <li>
+    
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/M0xyX6ScU0o" 
+             title="Flipando con los caballos"></iframe>
+
+        </li>
+
+
+
+
+        <li>
+
+
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/nUbOAOPBb0A" 
+            title="Directo de Dragon Ball Xenoverse"></iframe>
+
+
+        </li>
+
+        
+        <li>
+
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/GQBNc18yxVI" 
+            title="Rocket League a tope!"></iframe>
+
+
+        </li>
+
+    </ul>
+
+    <div class="container" style="background-color: pink">
+
+        <h1>Horario</h1>
+
+    </div>
+
+    <table>
+
+    <tr>
+
+        <th>Lunes</th>
+
+        <th>Martes</th>
+
+        <th>Miércoles</th>
+
+        <th>Jueves</th>
+
+        <th>Viernes</th>
+
+        <th>Sábado</th>
+
+        <th>Domingo</th>
+
+
+    </tr>
+
+    <tr>
+
+        <td>Descanso</td>
+
+        <td>Descanso</td>
+
+        <td>Descanso</td>
+
+        <td>Descanso</td>
+
+        <td style="background-color: red;color: white;">Vídeo</td>
+
+        <td style="background-color: purple;color: white;">Directo</td>
+
+        <td>Descanso</td>
+
+
+    </tr>
+
+    </table>
+
+
+
+    <hr id="hr_line">
+
+
+    <footer style="width:100%;height:300px;text-align: center;">
+
+        <h2 style="color:black;text-align: center;padding: 15px;font-family: Rainbow;">Redes Sociales</h2>
+
+        <a href="https://www.instagram.com/?hl=es" target="_blank">
+
+            <img src="logos/instagram.webp" alt="Instagram">
+
+        </a>
+
+        <a href="https://www.facebook.com/Andowna9" target="_blank">
+
+            <img src="logos/facebook.webp" alt="Facebook">
+    
+        </a>
+
+        <a href="https://twitter.com/andowna_9" target="_blank">
+
+            <img src="logos/twitter.webp" alt="Twitter">
+    
+        </a>
+    
+        <a href="https://www.youtube.com/channel/UCI9UyEzk-VNV_IYBcRrcEzw" target="_blank">
+
+            <img src="logos/youtube.png" alt="YouTube">
+
+        </a>
+
+        <p style="text-align: right;width: auto;margin-top: 50px;margin-right: 80px;">Página creada por @<b><u>Andowna9</u></b></p>
+
+
+    </footer>
+
+</div>
+
+
 
 </body>
+
+
 </html>
